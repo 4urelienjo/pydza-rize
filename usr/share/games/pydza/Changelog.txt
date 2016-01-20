@@ -1,0 +1,99 @@
+--Pydza v115 (2006-06-21)--
+
+One more bug fixed in level loading (DOS or UNIX encoding)
+Some improvements in bricks and loading for PydzEd compatibility
+Can now set a level in command-line to play it directly
+
+--Pydza v108 (2006-05-27)--
+
+Added a decoration actor
+Monsters collision fixed:
+# Togezo's box reduced
+# Monsters touch other monsters
+New flying monster
+Wall-jump bugs fixed
+Scrolling modified: now we can go back
+Little display improvement
+No more collision while dead
+Level loading improved:
+# Now, level and ennemies are in the same file
+# "SyntaxError" under UNIX-based OS fixed
+
+--Pydza v093 (2006-04-27)--
+
+Credits menu
+Level num and author displayed when the player enter it
+HUD addition: level num
+New actor: Trigger: can spawn other actors when the player reach it
+Levels are now stored in separate files
+Mouse doesn't show anymore when switching from full-screen to windowed mode
+
+--Pydza v079 (2006-04-05)--
+
+New music in .wav. .mid isn't fully supported on all platforms
+Added sounds for most events.
+New menu: options. Can configure
+#Music volume
+#Sound volume
+#Full screen
+Options are saved in a file.
+
+--Pydza v072 (2006-03-26)--
+
+New brick type who can move up and down
+New pickup : Pizza, which give you points
+HUD addition for pizza points
+Clouds move in the background :)
+Kill effect for Waddledees
+Player now have a dying "animation"
+Player can wall-jump
+Mid-game menu (works as a pause)
+Menus optimised
+
+--Pydza v058 (2006-03-24)--
+
+Two new "brick" types
+New -real- levels
+
+--Pydza v054 (2006-03-23)--
+
+New monster
+New brick type
+Multiple level support
+
+--Pydza v040 (2006-03-22)--
+
+Added a main menu with some nice logos ;)
+Yay ! Music \o/ (ZZTop - La Grange (midi's better :D))
+Player got a new image with different animations while:
+# Standing
+# Walking/Running
+# Jumping
+# Falling
+Level scrolls following player progression (can't go back btw (oldskool :)))
+Player got 3 lives with a maximum of 5
+Small HUD added
+Added a 1-Up pickup
+Ph34r ! Monsters incoming
+Added a "end-of-level" actor ;) (brings back the main menu atm)
+
+
+--Pydza v017 (2006-03-19)--
+
+Actors are now child classes of pygame.sprite.Sprite
+Collisions enhanced :
+# Player land correctly on floor, no more a little in the floor
+# Player can't pass thru bricks from side or bottom
+Player can die if he fall off the screen (he respawns for the moment)
+
+--Pydza first release v008 (2006-03-16)--
+
+Just two actors at the moment:
+# The player
+# Some "bricks" the player can walk on
+
+Player abilities:
+# Move left and right
+# Jump (and move while jumping, yay)
+# Land on bricks
+# Pass thru bricks (from the bottom and sides) (yay it's a bug ;))

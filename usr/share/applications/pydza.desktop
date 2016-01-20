@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=0.115
+Encoding=UTF-8
+Name=Pydza
+Comment=Mario-Like
+Exec=pydza
+Icon=/usr/share/games/pydza/pydza.png
+Terminal=false
+Type=Application
+Categories=Application;Game
+Name[fr_FR]=Pydza
